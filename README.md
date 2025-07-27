@@ -1,97 +1,97 @@
-```markdown
-# 🚀 Sales Performance Dashboard
+# 📊 Retail Sales Performance Dashboard (Excel)
 
-This repository features an interactive Excel dashboard designed to provide comprehensive insights into sales performance. It leverages detailed transactional and master data to visualize key metrics, trends, and performance against targets, facilitating data-driven decision-making.
+> Interactive Excel dashboards for retail sales analysis, covering store targets, product performance, customer behavior, and overall profitability.
 
 ---
 
 ## 📸 Dashboard Screenshots
 
-Take a quick glance at the dashboard in action!
+### 1. Monthly Sales vs Target by Store
+![Dashboard 1](screenshots/dashboard1.png)
 
-### Dashboard Overview 1
-![Dashboard 1 Screenshot](path/to/your/dashboard1_screenshot.png)
+### 2. Product Performance & Profitability
+![Dashboard 2](screenshots/dashboard2.png)
 
-### Dashboard Overview 2
-![Dashboard 2 Screenshot](path/to/your/dashboard2_screenshot.png)
-
-### Dashboard Overview 3
-![Dashboard 3 Screenshot](path/to/your/dashboard3_screenshot.png)
+### 3. Customer Segmentation & Insights
+![Dashboard 3](screenshots/dashboard3.png)
 
 ---
 
-## 🎯 Purpose
+## 📁 Dataset Overview
 
-The primary goal of this dashboard is to monitor and analyze sales operations, identify performance drivers, highlight areas for improvement, and track progress against established targets. It serves as a single source of truth for stakeholders to quickly grasp the health of the sales business.
+The dataset is structured to represent a full retail business system with the following tables:
 
-## 📊 Data Source
-
-The dashboard is built upon five interconnected datasets (simulated as CSV files for this project, typically loaded into Excel for analysis):
-
-* `sales_persons_table.csv`: Contains details of sales personnel and their assigned stores.
-* `customers_table.csv`: Includes customer demographic information.
-* `fact_table.csv`: The core transactional sales data, detailing quantities, order dates, and payment methods.
-* `monthly_store_targets.csv`: Provides monthly sales targets for each store.
-* `products_table.csv`: Contains product information, including categories, sales prices, and cost prices.
+- **Fact Table**: Records each sale with product, customer, salesperson, quantity sold, returns, and order date.
+- **Products**: Contains product ID, name, category, sales price, and cost price.
+- **Customers**: Includes customer demographics (gender, location, DOB).
+- **Sales Persons**: Sales reps linked to specific stores and birth dates.
+- **Monthly Store Targets**: Monthly sales targets per store.
 
 ---
 
-## ✨ Key Features and Insights
+## 🎯 Analysis Objectives
 
-The dashboard is organized into several sections, each providing specific insights to various business questions:
+The dashboard answers key stakeholder questions including:
 
-### I. Executive Summary & Overall Performance
+### 🏪 Store Performance
+- Compare actual vs. target sales per month per store.
+- Identify underperforming stores (e.g., Novak PLC: -24.6%).
+- Rank stores by target achievement.
 
-* **Total Revenue:** Clearly displays the overall sales revenue, which is **$5.4M**.
-* **COGS (Cost of Goods Sold):** Shows the total cost associated with the goods sold, reported as **$3.1M**.
-* **Profit:** Calculates the net profit from sales, amounting to **$2.3M**.
-* **Profit Margin %:** Indicates the profitability percentage of sales, which is **42%**.
-* **Products Sold:** Total number of distinct products sold: **100**.
-* **Product Return Rate & Refund Rate:** Provides critical metrics for product performance and customer satisfaction, showing an **8.03%** return rate and an **8.05%** refund rate.
-* **Quantity Returned:** Total quantity of items returned is **48,662**.
+### 📅 Sales & Trend Analysis
+- Discover peak revenue months (**August**, **May**) and lowest (**February**, **July**).
+- Track month-over-month trends in sales and returns.
 
-### II. Sales Trend & Profitability Analysis
+### 💰 Revenue, Cost & Profit
+- Total revenue, cost of goods sold, and overall profit.
+- Total items sold and returned.
+- Return rate across the business.
 
-* **Profit by Customer Age:** Visualizes profit distribution across different customer age groups (0-20, 21-30, 31-40, 41-50, 50+), allowing for targeted marketing strategies.
-* **Profit by Gender:** Displays the profit generated from male vs. female customers, showing **$1M from Males** and **$1M from Females**, indicating balanced contributions.
-* **Profit by Weekday:** Breaks down profit by the day of the week, helping identify peak selling days (e.g., **Monday** and **Tuesday** show the highest profit at **$343K** and **$332K** respectively, while **Friday** has the lowest at **$313K**).
-* **Month Over Month Sales & Returns Variance:** A line chart illustrating the percentage change in revenue month over month, along with the quantity returned. It helps track seasonality and performance fluctuations.
-    * **August** and **May** had the highest revenue.
-    * **February** and **July** had the lowest revenue.
-    * Shows monthly variances like **+12.5% in August** and **-5.0% in July**.
-* **Category Profit:** Ranks product categories by their profitability (e.g., **Water**, **Tea**, and **Sports Drink** are among the top categories).
-* **Top 5 Profitable Customers:** Identifies high-value customers based on their profit contribution (e.g., John Brown, Paul Noble, Laura Gross).
-* **Payment Method Breakdown:** Shows the distribution of sales across different payment methods (Cash, Credit Card, Debit Card, Online Payment).
+### 🛍️ Product Insights
+- Top 5 products by sales volume and revenue.
+- Most profitable products and categories.
+- Return rate by product and category.
 
-### III. Revenue vs. Target Performance
+### 👤 Customer Insights
+- Top 5 customers by revenue.
+- Total unique customers.
+- Sales breakdown by gender, location, and age.
 
-* **Total Revenue vs. Total Target:** A high-level comparison showing **Total Revenue of $5.4M** against a **Total Target of $5.3M**, with a positive **Variance of +3.7%**.
-* **Revenue vs Target by Month:** A detailed chart comparing actual monthly revenue against the target line, visualizing monthly performance against goals.
-* **Weekday vs. Weekend Revenue:** Breaks down revenue contribution, showing **71% of revenue from Weekday sales** and **29% from Weekend sales**.
-* **Day on Day Revenue:** Provides daily revenue figures and their percentage variance, allowing for granular tracking of daily sales fluctuations.
-* **Quarter Revenue:** Summarizes total revenue for each quarter, indicating overall quarterly performance (e.g., **Q1: $1.3M**, **Q2: $1.6M**, **Q3: $1.4M**, **Q4: $1.4M**).
-
-### IV. Store Performance & Sales Person Analysis
-
-* **Revenue VS Target by Store:** This critical section compares each store's `Total Revenue` against its `Target`, showing both the absolute `Variance` and `Variance %`.
-    * **Top Performing Stores:** Stores like **Lee-Myers (+31.1%)**, **Lopez (+30.0%)**, and **Barron-Fleming (+29.5%)** significantly exceeded their targets.
-    * **Underperforming Stores:** Identifies stores that consistently fell short of their targets. Specifically, **Martinez (-10.8%)**, **Berg-Trujillo (-12.4%)**, **Miller (-15.3%)**, and **Novak PLC (-24.6%)** are consistently underperforming, with **Novak PLC** being identified as the worst store.
-* **Products Profit and Qty:** Lists products by their profit and quantity sold.
-* **Sales Person Filter:** Allows for filtering the entire dashboard by individual `Sales Person` to analyze their specific performance.
+### 💳 Payment Methods
+- Revenue by payment method (Credit, Cash, Debit).
+- Return trends by payment type.
 
 ---
 
-## 🛠️ How to Use
+## 🛠️ Tools Used
 
-The Excel file contains interactive elements (slicers for Store Name, Gender, Month Name, Sales Person Full Name) that allow users to dynamically filter the data and drill down into specific areas of interest.
+- Microsoft Excel (Dashboards, Pivot Tables, Slicers, Charts)
+- Optional: Power Query (for data preparation)
 
-## 💻 Technologies Used
+---
 
-* Microsoft Excel (for data loading, transformation, visualization, and dashboard creation)
+## 🧠 Key Insights
 
-## 📈 Future Enhancements
+- Stores like Novak PLC underperform consistently and require attention.
+- High return rates in certain categories indicate potential product or customer issues.
+- Seasonal trends suggest sales surge mid-year, hinting at promotion planning opportunities.
 
-* Integration with live data sources for real-time updates.
-* Addition of more advanced predictive analytics (e.g., sales forecasting).
-* Further drill-down capabilities for customer segments and product analysis.
-```
+---
+
+## 📂 What's Included
+
+- 📊 Excel dashboard file with interactive views and filters.
+- 📄 A summary report answering all business questions.
+- 🔍 Clear recommendations for sales, inventory, and customer optimization.
+
+---
+
+## ✅ Author
+
+**Mazen | Data Analyst**  
+Specialized in Excel, Power BI, SQL, and data storytelling.  
+[LinkedIn](https://www.linkedin.com/) | [YouTube](https://www.youtube.com/) | [Portfolio Website](https://your-portfolio-link.com)
+
+---
+
+> Feel free to clone this project, explore the dashboards, or contact me for collaboration!
