@@ -1,21 +1,22 @@
 #  Retail Sales Performance Dashboard (Excel)
 
-> Interactive Excel dashboards for retail sales analysis, covering store targets, product performance, customer behavior, and overall profitability.
+### Interactive Excel dashboards for retail sales analysis, covering store targets, product performance, customer behavior, and overall profitability.
 
 ---
 
 ## 📸 Dashboards
 
-### 1. Dashboard 1
+###  Dashboard 1
 <img width="1877" height="785" alt="Screenshot 2025-07-27 151055" src="https://github.com/user-attachments/assets/037fcc4e-bcde-4533-94c5-780587ffb6d4" />
 
 
-### 2. Dashboard 2
+###  Dashboard 2
 <img width="1850" height="708" alt="Screenshot 2025-07-27 151209" src="https://github.com/user-attachments/assets/46b8adcd-965f-4f72-b655-074f8cba331c" />
 
 
-### 3. Dashboard 3
-<img width="1828" height="774" alt="Screenshot 2025-07-27 154707" src="https://github.com/user-attachments/assets/835933e1-e4f7-44a6-b7fd-57b967c07415" />
+###  Dashboard 3
+<img width="1831" height="777" alt="Screenshot 2025-07-27 170218" src="https://github.com/user-attachments/assets/3ddc46af-00fa-44a0-b62f-0cc54ef7ab01" />
+
 
 
 ---
