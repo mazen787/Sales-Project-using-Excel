@@ -11,7 +11,7 @@
 )
 
 ### 2. Product Performance & Profitability
-![Dashboard 2](screenshots/dashboard2.png)
+![Dashboard 2]("C:\Users\HP\Pictures\Screenshots\Screenshot 2025-07-27 151055.png")
 
 ### 3. Customer Segmentation & Insights
 ![Dashboard 3](screenshots/dashboard3.png)
