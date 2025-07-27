@@ -7,8 +7,8 @@
 ## 📸 Dashboard Screenshots
 
 ### 1. Monthly Sales vs Target by Store
-![Dashboard 1](<img width="1877" height="785" alt="Screenshot 2025-07-27 151055" src="https://github.com/user-attachments/assets/c8c0dc9a-064b-4f90-a4e5-34dba81ae3e0" />
-)
+![Dashboard 1]<img width="1877" height="785" alt="Screenshot 2025-07-27 151055" src="https://github.com/user-attachments/assets/037fcc4e-bcde-4533-94c5-780587ffb6d4" />
+
 
 ### 2. Product Performance & Profitability
 !["C:\Users\HP\Pictures\Screenshots\Screenshot 2025-07-27 151055.png"]("C:\Users\HP\Pictures\Screenshots\Screenshot 2025-07-27 151055.png")
