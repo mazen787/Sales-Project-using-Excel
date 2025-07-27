@@ -69,8 +69,7 @@ The dashboard answers key stakeholder questions including:
 
 ## 🛠️ Tools Used
 
-- Microsoft Excel (Dashboards, Pivot Tables, Slicers, Charts)
-- Optional: Power Query (for data preparation)
+- Microsoft Excel (Power Query, Pivot Tables, Slicers, Charts, AI)
 
 ---
 
@@ -90,12 +89,4 @@ The dashboard answers key stakeholder questions including:
 
 ---
 
-## ✅ Author
 
-**Mazen | Data Analyst**  
-Specialized in Excel, Power BI, SQL, and data storytelling.  
-[LinkedIn](https://www.linkedin.com/) | [YouTube](https://www.youtube.com/) | [Portfolio Website](https://your-portfolio-link.com)
-
----
-
-> Feel free to clone this project, explore the dashboards, or contact me for collaboration!
